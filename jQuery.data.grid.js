@@ -14,7 +14,7 @@ $(document).ready(function() {
 		} else if($(this).parents().hasClass('col-narrow')) {
 			$(this).width(colNarrow);
 		} else if($(this).parents().hasClass('col-full')) {
-			$(this).width(colFull)
+			$(this).width(colFull);
 		}
 	});
 
