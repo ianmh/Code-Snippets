@@ -10,7 +10,7 @@ $('.tip-message').on({
 		$(this).mousemove(function(e){
 			var cssObj = {
 				'left'			: e.pageX+10,
-				'top'				: e.pageY+10,
+				'top'				: e.pageY+10
 			}
 			$('.tip-message-box').css(cssObj);
 		});
